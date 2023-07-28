@@ -1,0 +1,108 @@
+.tableContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+table{
+    width: 90%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse:collapse;
+    padding:10px;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+  }
+  .edit{
+    cursor: pointer;
+    font-size: larger;
+
+  }
+  .edit:hover{
+    color:blue;
+  }
+  .delete{
+    cursor: pointer;
+    color: red;
+    font-size: larger;
+
+  }
+  .delete:hover{
+    color:blue;
+  }
+  .inputs{
+    text-align: start;
+    
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    
+
+  }
+.form-box{
+  box-sizing: border-box;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+padding: 20px;
+border-radius: 10px;
+}
+  .navbar{
+    background-color: aqua;
+    /* height: 50px; */
+    padding: 0px !important;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+  }
+  .nav{
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: end;
+    gap:20px;
+    padding-right: 10px;
+  }
+  .nav-link{
+    cursor: pointer;
+  }
+  .nav-link:hover{
+    color: blue;
+  }
+  .heading{
+    padding-left: 550px;
+    color: rgb(158, 23, 55);
+  }
+  .inputs input{
+margin-bottom: 10px;
+width: 400px;
+height: 40px;
+  }
+  
+  .btn{
+    width: 400px;
+    height: 40px;
+   background-color:rgb(84, 157, 84);
+   cursor: pointer;
+   border-radius: 5px;
+  }
+  .btn:hover{
+   background-color:rgb(117, 117, 206);
+
+  }
+  .addtodo{
+  justify-content:;
+  }
